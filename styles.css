@@ -1,0 +1,36 @@
+body {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Nunito Sans', Arial, sans-serif; /* Use Nunito Sans as the primary font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #64707D;
+  }
+  
+  @keyframes glowPulse {
+    0%, 100% {
+      text-shadow: 0 0 10px #ff4760, 0 0 20px #ff4760, 0 0 30px #ff4760;
+    }
+    50% {
+      text-shadow: none;
+    }
+  }
+  
+  .glowing {
+    animation: glowPulse 2s infinite;
+    color: #ff4760;
+    display: inline-block;
+  }
+  
